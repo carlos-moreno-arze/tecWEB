@@ -321,3 +321,30 @@ footer{
         width: 90%;
     }
 }
+@media screen and(max-width:200px){
+    .menu-navegacion{
+        width: 35vw;
+    }
+    .menu{
+        top: 10px;
+        right: 10px;
+    }
+    .titulo{
+        font-size: 10px;
+    }
+    .subtitulo{
+        font-size: 10px;
+    }
+    .agregar-imagen{
+        width: 95%;
+    }
+    .img-galeria{
+        width: 50%;
+    }
+    .social-media{
+        width: 50%;
+    }
+    .contact-us{
+        width: 50%;
+    }
+}
