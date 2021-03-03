@@ -1,25 +1,27 @@
 const imagenes = document.querySelectorAll('.img-galeria')
-const imagenesLigth = document.querySelector('.agregar-imagen')
-const contenedorLigth = document.querySelector('.imagen-ligth')
-const menu3 = document.querySelector('.menu') 
+const imagenLight = document.querySelector('.agregar-imagen');
+const contenedorLight = document.querySelector('.imagen-light')
+const closeLight = document.querySelector('.close')
 
-imagenes.forEach(imagen =>{
+
+imagenes.forEach(imagen => {
     imagen.addEventListener('click',()=>{
-        aparecerImagen(imagen.getAttribute('src'))
-      
+        aparecerImagen(imagen.getAttribute('src'));
     })
+});
+
+contenedorLight.addEventListener('click',(e)=>{
+    if(e.target !== imagenLight){
+        contenedorLight.classList.toggle('show')
+        imagenLight.classList.toggle('showImage')
+        hamburguer.style.opacity = '1';
+    }
 })
 
-contenedorLigth.addEventListener('click', (e)=>{
-             if(e.target !== imagenesLigth){
-                contenedorLigth.classList.toggle('show')
-                imagenesLigth.classList.toggle('showImage')
-                menu3.style.opacity='1'
-             }
-})
+
 const aparecerImagen = (imagen)=>{
-  imagenesLigth.src=imagen;
-  contenedorLigth.classList.toggle('show')
-  imagenesLigth.classList.toggle('showImage')
-  menu3.style.opacity='0'
+    imagenLight.src = imagen;
+    contenedorLight.classList.toggle('show')
+    imagenLight.classList.toggle('showImage')
+    hamburguer.style.opacity = '0';
 }
