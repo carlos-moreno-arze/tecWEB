@@ -20,7 +20,7 @@ body{
 
 header{
     height: 100vh;
-    background-image: linear-gradient(120deg, rgba(5, 84, 211, 0.514) 0%, rgba(46, 109, 138, 0.123) 100%),url(../img/covid.jpg);
+    background-image: linear-gradient(120deg, rgba(5, 84, 211, 0.514) 0%, rgba(46, 109, 138, 0.123) 100%),url(../img/covid1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
