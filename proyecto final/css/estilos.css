@@ -70,14 +70,14 @@ header{
     text-decoration: none;
 }
 .titulo{
-    line-height: 600%;
+    line-height: 400%;
     text-align: center;
     color: white;
     font-size: 60px;
     margin-bottom: 15px;
 }
 .copy{
-    line-height: 600%;
+    line-height: 400%;
     text-align: center;
     color: white;
     font-weight: 300; 
