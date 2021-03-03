@@ -195,7 +195,7 @@ header{
 }
 /*footer*/
 footer{
-    background-image: linear-gradient(to right, rgba(19, 16, 203, 0.952) 0%, #0f2346 100%);
+    background-image: linear-gradient(to right, hsla(241, 76%, 21%, 0.89) 0%, #0f2346 100%);
     padding-bottom: 0.1px;
     border: 1px solid black;
 }
