@@ -348,3 +348,30 @@ footer{
     }
     
 }
+/*hora*/
+.marquee {
+    width: 350px;
+    margin: 0 auto;
+    background:#1b07cc96;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+    font-size:18px;
+ }
+ 
+ .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    text-indent: 0;
+    animation: marquee 15s linear infinite;
+ }
+ 
+ .marquee span:hover {
+     animation-play-state: paused
+ }
+ 
+ @keyframes marquee {
+     0%   { transform: translate(0, 0); }
+     100% { transform: translate(-100%, 0); }
+ }
